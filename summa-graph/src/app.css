@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #8a7235; border-radius: 3px; }
+
+/* SVG graph container */
+.graph-container {
+	cursor: grab;
+}
+.graph-container:active {
+	cursor: grabbing;
+}
+
+/* Panel transitions */
+.panel-slide-enter {
+	transform: translateX(100%);
+}
+.panel-slide-enter-active {
+	transform: translateX(0);
+	transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
