@@ -30,7 +30,7 @@
 <header class="fixed top-0 left-0 right-0 z-40 px-7 py-4 flex items-baseline gap-4 pointer-events-none"
 	style="background: linear-gradient(to bottom, rgba(14,12,8,0.95) 0%, rgba(14,12,8,0.5) 70%, transparent 100%);">
 	<h1 class="font-cinzel font-semibold text-xl text-gold tracking-[3px] uppercase">Summa Theologiae</h1>
-	<span class="text-sm text-parchment-300 italic">A Tapestry of St. Thomas Aquinas' Seminal Work</span>
+	<span class="text-sm text-parchment-300 italic">A Visual Knowledge Graph of St. Thomas Aquinas</span>
 </header>
 
 <div class="fixed top-4 right-7 z-40 pointer-events-auto">
